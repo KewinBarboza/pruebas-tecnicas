@@ -1,6 +1,6 @@
 import { createDOM } from '@builder.io/qwik/testing'
 import { describe, expect, test } from 'vitest'
-import { ItemBooks } from '~/components/ui'
+import { ItemBooks } from '~/components'
 
 describe('Test component ItemBooks', () => {
   test("Render items books", async () => {
